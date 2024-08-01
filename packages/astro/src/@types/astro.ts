@@ -2707,7 +2707,7 @@ export interface AstroAdapter {
 	supportedAstroFeatures: AstroFeatureMap;
 }
 
-export type ValidRedirectStatus = 300 | 301 | 302 | 303 | 304 | 307 | 308;
+export type ValidRedirectStatus = 300 | 301 | 302 | 303 | 304 | 307 | 308 | 404;
 
 // Shared types between `Astro` global and API context object
 interface AstroSharedContext<
